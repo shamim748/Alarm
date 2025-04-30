@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:alarm/constants/text.dart';
-import 'package:alarm/features/location/bindings/location_bindings.dart';
+import 'package:alarm_app/constants/text.dart';
+import 'package:alarm_app/features/location/bindings/location_bindings.dart';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -29,7 +29,7 @@ class OnbordingController extends GetxController {
 
   Future<void> onSkip() async {
     box.write(AppText.onbordingDone, true);
-    //Get.off(() => const LocationView(), binding: LocationBindings());
+    Get.off(() => const LocationView(), binding: LocationBindings());
   }
 
   void _startAutoPageChange() {
@@ -50,7 +50,7 @@ class OnbordingController extends GetxController {
 
   @override
   void onInit() {
-    _startAutoPageChange();
+    // _startAutoPageChange();
     super.onInit();
   }
 }

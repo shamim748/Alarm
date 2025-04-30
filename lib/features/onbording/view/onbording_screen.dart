@@ -1,7 +1,7 @@
-import 'package:alarm/common_widgets/custom_button.dart';
-import 'package:alarm/common_widgets/onbording_page.dart';
-import 'package:alarm/constants/color.dart';
-import 'package:alarm/features/onbording/controller/onbording_controller.dart';
+import 'package:alarm_app/common_widgets/custom_button.dart';
+import 'package:alarm_app/common_widgets/onbording_page.dart';
+import 'package:alarm_app/constants/color.dart';
+import 'package:alarm_app/features/onbording/controller/onbording_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -61,10 +61,10 @@ class OnbordingScreen extends StatelessWidget {
                           SizedBox.expand(
                             child: onboardingPage(
                               image: 'assets/images/morning walk gif 1.png',
-                              title: 'Sync with Nature’s Rhythm',
+                              title: 'Effortless & Automatic',
                               subtitle:
-                                  'Experience a peaceful transition into the evening with an alarm that aligns with the sunset."Your perfect reminder, always 15 minutes before sundown',
-                              highlightWords: ['Sync'],
+                                  'No need to set alarms manually. Wakey calculates the sunset time for your location and alerts you on time.',
+                              highlightWords: ['Automatic'],
                               normalColor: Colors.white,
                               titleStyle: TextStyle(
                                 color: Colors.white,
@@ -81,10 +81,10 @@ class OnbordingScreen extends StatelessWidget {
                           SizedBox.expand(
                             child: onboardingPage(
                               image: 'assets/images/Mask group.png',
-                              title: 'Sync with Nature’s Rhythm',
+                              title: 'Relax & Unwind',
                               subtitle:
-                                  'Experience a peaceful transition into the evening with an alarm that aligns with the sunset."Your perfect reminder, always 15 minutes before sundown',
-                              highlightWords: ['Sync'],
+                                  'hope to take the courage to pursue your dreams.',
+                              highlightWords: ['a'],
                               normalColor: Colors.white,
                               titleStyle: TextStyle(
                                 color: Colors.white,

@@ -1,5 +1,5 @@
-import 'package:alarm/common_widgets/highlighted_text.dart';
-import 'package:alarm/constants/color.dart';
+import 'package:alarm_app/common_widgets/highlighted_text.dart';
+import 'package:alarm_app/constants/color.dart';
 import 'package:flutter/material.dart';
 
 Widget onboardingPage({
@@ -14,6 +14,7 @@ Widget onboardingPage({
 }) {
   return SizedBox.expand(
     child: Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Flexible(
           flex: 1,
@@ -33,6 +34,7 @@ Widget onboardingPage({
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               HighlightText(
